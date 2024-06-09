@@ -1,20 +1,23 @@
 # ADITYA-SHARMA
-# Javascript-NFT-Project
-This project is to create an NFT collection using my state "UTTRAKHAND" as the parameter, utilizing resources like zila names, food of the place, tourist attractive places, and its feedback.
-This project demonstrates the creation of NFTs (Non-Fungible Tokens) representing various districts in Uttrakhand. Each NFT contains metadata about a district(which called zila in local language), including its name, image(photo), popular travel destinations, local cuisine, and a description. This project uses JavaScript to mint, list, and track these NFTs.
-Features
-Minting NFTs: Create NFTs with specific metadata for each district.
-Listing NFTs: Display all minted NFTs with their metadata.
-Total Supply: Get the total number of NFTs created.
-# Background
-Non-Fungible Tokens (NFTs) are unique digital assets that represent ownership or proof of authenticity of a particular item or piece of content. Unlike cryptocurrencies such as Bitcoin, NFTs are not interchangeable on a one-to-one basis because each NFT has its unique properties and metadata.In this project, we explore the creation of NFTs for districts in Uttrakhand, a northern Indian state known for its stunning landscapes, rich cultural heritage, and delicious local cuisine. Each NFT encapsulates the essence of a district, making it a digital collectible that highlights the unique features of UTTRAKHAND diverse regions.
+# Ethereum Beginner_create a token 
+create a function myToken,
+declare tokenName, tokenaabrv and initial amount
+# Mapping variable
+create a mapping variable for balance left.
+# Mint Function
+Now, create a function named Mint having parametres address and uint now in this function if the value of the token increase then the totalsuplly will also increase automatically in the same way if value increases then balances of address will also increase 
+# Burn function 
+create a burn function as same as mint function having same parameters but now in this case if the value decreases then the value of  total supply and balances will decreased automatically
 
-# Metadata Attributes
+# Need of the project
+in this project we generally created a Ethereum token on Ethereum Blockchain. in general we are aware to make a token along with balance left toalbalance etc.
 
-Each NFT in this project includes the following attributes:
+# How to run
 
-zila Name : The name of the zila in UTTRAKHAND.
-photo : A representative image of the zila.
-exploring_places : Popular travel destinations(where tourists attracts the most) within the zila.
-zila_food :  local cuisine and food items from the zila.
-feedback : A brief description highlighting the unique aspects of the zila.
+Run the program
+Deploy the code of solidity smart contract to a solidity Ethereum (Blockchain) network like remix.
+Now check the name of the Token
+Check the Balance of the token, Initially set 0.
+in the same way way we can work on that particular token. Thank you!
+
+
