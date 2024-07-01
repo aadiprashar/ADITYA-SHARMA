@@ -79,8 +79,3 @@ License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 
-// Printing the total number of NFTs created
-console.log("Total NFTs created: " + getTotalSupply());
-
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
