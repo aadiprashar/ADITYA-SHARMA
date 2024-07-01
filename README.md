@@ -32,8 +32,8 @@ function mintNFT(zila_name, photo, exploring_places, zila_food, feedback) {
     nft.push(NFT);
     console.log("Minting", zila_name);
 }
-
-## listNFTs
+```
+listNFTs
 This function loops through the nft array and prints each NFT's metadata to the console.
 function listNFTs() {
     for (let i = 0; i < nft.length; i++) {
@@ -48,6 +48,7 @@ function listNFTs() {
         console.log("*********************************");
     }
 }
+
 getTotalSupply
 This function returns the total number of NFTs created.
 function getTotalSupply() {
@@ -68,5 +69,5 @@ listNFTs();
 // Printing the total number of NFTs created
 console.log("Total NFTs created: " + getTotalSupply());
 
-icense
+License
 This project is licensed under the MIT License - see the LICENSE file for details.
