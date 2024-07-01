@@ -33,6 +33,7 @@ function mintNFT(zila_name, photo, exploring_places, zila_food, feedback) {
     console.log("Minting", zila_name);
 }
 ```
+```
 listNFTs
 This function loops through the nft array and prints each NFT's metadata to the console.
 function listNFTs() {
@@ -48,12 +49,16 @@ function listNFTs() {
         console.log("*********************************");
     }
 }
+```
+```
 
 getTotalSupply
 This function returns the total number of NFTs created.
 function getTotalSupply() {
     return nft.length;
 }
+```
+```
 Usage
 To use the project, include the index.js file in your HTML file and call the functions as demonstrated below:
 // Minting some NFTs
@@ -62,9 +67,17 @@ mintNFT("HARIDWAR", "haridwar.png", "ganges, Ganga Tat, Famous temple of Haridwa
 mintNFT("Rudraprayag", "rudraprayag.png", "Kedarnath Dham, Rivers, Beautiful and Ancient temples", "Aaloo ke gutke, Kafuli, Chha Gosht", "Rudraprayag, the cultural capital, located on the feet of Bholenath Lord shiva near kedarnath dham, renowned for its temples, lakes, and delectable cultural cuisine.");
 mintNFT("chamoli", "chamoli.png", "chopta trek, Tungnath temple, Hemkund sahib", "Thukpa, Siddu, Dham", "Chamoli, the land of gods and goddesses, blessed with pristine beauty, apple orchards, and a rich cultural heritage, offering a delightful culinary experience.");
 mintNFT("Pauri Garhwal", "gharwal.png", "Neelkanth mahadev, Binsar mahadev temple, jwalpa devi temple", "Bakery food , sattu, Tudkiya Bhat", "Gharwal, the valley of milk and honey, renowned for its ancient temples, lush greenery, and lip-smacking traditional cuisine.");
+```
+```
 
 // Listing all NFTs to see their details
 listNFTs();
+console.log("Total NFTs created: " + getTotalSupply());
+```
+
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
 
 // Printing the total number of NFTs created
 console.log("Total NFTs created: " + getTotalSupply());
